@@ -1,0 +1,68 @@
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #eef2f5;
+        margin: 0;
+    }
+
+    form {
+        background: #ffffff;
+        width: 350px;
+        margin: 60px auto;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+        text-align: center;
+        color: #444;
+    }
+    p{
+        text-align: center;
+        color: #666;
+        font-size: 0.9em;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    /* Muda a cor da borda quando o usuário clica */
+    input:focus, select:focus, textarea:focus {
+        border-color: #a0bcd5;
+    }
+
+    /* pointer vira a mãozinha ao passar o mouse */
+    button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    /* hover para ficar um pouco mais escuro */
+    button[type="submit"] {
+        background-color: #7aa7c7;
+        color: white;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #6a97b7;
+    }
+
+    button[type="reset"] {
+        background-color: #c7a7a7;
+        color: white;
+    }
+
+    button[type="reset"]:hover {
+        background-color: #b79696;
+    }

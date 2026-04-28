@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#87d7f5"/>
+  <rect y="260" width="800" height="240" fill="#16a6b6"/>
+  <rect y="360" width="800" height="140" fill="#f3e7c9"/>
+  <circle cx="690" cy="90" r="45" fill="#ffd76a"/>
+  <text x="40" y="70" font-size="42" font-family="Arial" fill="#13313f">Maldivas</text>
+</svg>

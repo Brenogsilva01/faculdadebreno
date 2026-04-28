@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#b1ecff"/>
+  <rect y="255" width="800" height="245" fill="#16a6b6"/>
+  <polygon points="110,300 210,180 300,300" fill="#547f56"/>
+  <polygon points="260,300 400,110 540,300" fill="#406b42"/>
+  <polygon points="470,300 600,170 710,300" fill="#5b8a5d"/>
+  <rect y="380" width="800" height="120" fill="#f3e7c9"/>
+  <text x="40" y="70" font-size="42" font-family="Arial" fill="#13313f">Fernando de Noronha</text>
+</svg>

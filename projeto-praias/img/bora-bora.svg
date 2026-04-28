@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#9fe3ff"/>
+  <rect y="250" width="800" height="250" fill="#0a5c78"/>
+  <polygon points="140,280 290,120 430,280" fill="#5a7d7c"/>
+  <polygon points="320,280 490,90 650,280" fill="#6f8f8e"/>
+  <rect y="370" width="800" height="130" fill="#f3e7c9"/>
+  <text x="40" y="70" font-size="42" font-family="Arial" fill="#13313f">Bora Bora</text>
+</svg>

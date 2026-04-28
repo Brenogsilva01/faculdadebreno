@@ -1,0 +1,30 @@
+:root {
+  --areia: #f3e7c9;
+  --oceano: #0a5c78;
+  --turquesa: #16a6b6;
+  --texto: #13313f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--texto);
+  background: linear-gradient(180deg, var(--areia), #ffffff);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+}

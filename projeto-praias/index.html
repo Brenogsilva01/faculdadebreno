@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praias pelo Mundo</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="menu">
+      <div class="logo">Praias pelo Mundo</div>
+      <ul>
+        <li><a href="#destinos">Destinos</a></li>
+        <li><a href="#guia">Guia</a></li>
+        <li><a href="#planeje">Planeje</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero-conteudo">
+      <h1>Descubra destinos paradisíacos em vários cantos do planeta</h1>
+      <p>
+        Explore praias incríveis, encontre dicas úteis para sua viagem e comece
+        agora mesmo a planejar sua próxima aventura à beira-mar.
+      </p>
+      <a href="#destinos">Ver destinos</a>
+      <a href="#planeje">Planejar viagem</a>
+    </section>
+  </header>
+
+  <main>
+    <section id="destinos">
+      <h2>Destinos em destaque</h2>
+
+      <article class="card">
+        <figure>
+          <img src="./img/maldivas.svg" alt="Praia tropical com mar azul e palmeiras">
+          <figcaption>Maldivas</figcaption>
+        </figure>
+        <h3>Maldivas</h3>
+        <p>
+          Um destino famoso por águas cristalinas, bangalôs sobre o mar e uma
+          experiência única de descanso e sofisticação.
+        </p>
+        <ul>
+          <li>Mar azul-turquesa</li>
+          <li>Hospedagens exclusivas</li>
+          <li>Excelente para lua de mel</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <figure>
+          <img src="./img/bora-bora.svg" alt="Praia ensolarada com ondas suaves e areia clara">
+          <figcaption>Bora Bora</figcaption>
+        </figure>
+        <h3>Bora Bora</h3>
+        <p>
+          Conhecida por sua paisagem exuberante, recifes de corais e cenários
+          perfeitos para mergulho e passeios românticos.
+        </p>
+        <ul>
+          <li>Recifes incríveis</li>
+          <li>Paisagem exuberante</li>
+          <li>Ótima para mergulho</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <figure>
+          <img src="./img/noronha.svg" alt="Praia com falésias, areia dourada e mar calmo">
+          <figcaption>Fernando de Noronha</figcaption>
+        </figure>
+        <h3>Fernando de Noronha</h3>
+        <p>
+          Um dos destinos brasileiros mais desejados, ideal para quem busca
+          natureza preservada, praias limpas e rica vida marinha.
+        </p>
+        <ul>
+          <li>Natureza preservada</li>
+          <li>Belezas do Brasil</li>
+          <li>Vida marinha abundante</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="guia">
+      <h2>Guia rápido de HTML</h2>
+
+      <article>
+        <h3>Estrutura HTML</h3>
+        <p>
+          A estrutura HTML organiza o conteúdo da página com elementos como
+          <code>header</code>, <code>main</code>, <code>section</code>,
+          <code>article</code>, <code>aside</code> e <code>footer</code>.
+        </p>
+      </article>
+
+      <article>
+        <h3>Heading</h3>
+        <p>
+          Os headings são títulos e subtítulos representados por
+          <code>&lt;h1&gt;</code> até <code>&lt;h6&gt;</code>, criando uma
+          hierarquia de informação no documento.
+        </p>
+      </article>
+
+      <article>
+        <h3>Phrasing</h3>
+        <p>
+          Elementos phrasing são usados em trechos de texto, como
+          <code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code>,
+          <code>&lt;span&gt;</code> e <code>&lt;a&gt;</code>.
+        </p>
+      </article>
+
+      <article>
+        <h3>Embedded</h3>
+        <p>
+          Elementos embedded incorporam mídias e recursos externos, como
+          <code>&lt;img&gt;</code>, <code>&lt;video&gt;</code>,
+          <code>&lt;audio&gt;</code> e <code>&lt;iframe&gt;</code>.
+        </p>
+      </article>
+
+      <article>
+        <h3>Interactive</h3>
+        <p>
+          Elementos interativos permitem ação do usuário, como
+          <code>&lt;button&gt;</code>, <code>&lt;details&gt;</code>,
+          <code>&lt;summary&gt;</code>, <code>&lt;input&gt;</code> e
+          <code>&lt;select&gt;</code>.
+        </p>
+      </article>
+    </section>
+
+    <section id="planeje">
+      <h2>Planeje sua viagem</h2>
+
+      <form action="#" method="post">
+        <p>
+          <label for="nome">Nome</label><br>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        </p>
+
+        <p>
+          <label for="email">E-mail</label><br>
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+        </p>
+
+        <p>
+          <label for="destino">Destino desejado</label><br>
+          <select id="destino" name="destino">
+            <option value="">Selecione um destino</option>
+            <option value="maldivas">Maldivas</option>
+            <option value="bora-bora">Bora Bora</option>
+            <option value="noronha">Fernando de Noronha</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="data">Mês previsto para viagem</label><br>
+          <input type="month" id="data" name="data">
+        </p>
+
+        <button type="submit">Enviar planejamento</button>
+      </form>
+
+      <aside>
+        <h3>Dicas importantes</h3>
+        <p>Pesquise a melhor época do ano para visitar cada praia.</p>
+        <p>Confira documentos necessários antes de viagens internacionais.</p>
+        <p>Monte um orçamento com hospedagem, transporte e alimentação.</p>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>
